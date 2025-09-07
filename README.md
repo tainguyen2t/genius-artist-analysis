@@ -7,12 +7,12 @@ From **"Take Care" tears** to **"Her Loss" debates**, from “Started From the B
 
 <img src="outputs/images/VIII.3.3.-TREEMAP-Top-Songs-as-primary-artist-by-Pageview.png" width="800">
 
-## What is `Genius` <img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/image.png" width="50"> ? 🤔  
+## What is `Genius` <img src="/outputs/image.png" width="50"> ? 🤔  
 - `Genius` is basically **Wikipedia for lyrics, with clout.**  
 - You get lyrics, annotations, context and (more importantly for me) **pageviews = clout score.**  
 - Why `Genius`? Because it shows which songs people are actually googling lyrics for, not just passively streaming on Spotify. It’s not just about plays, it’s about cultural impact.  
 
-## Why `Drake` <img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/Drake.jpg" width="50"> ? 🦉  
+## Why `Drake` <img src="/outputs/Drake.jpg" width="50"> ? 🦉  
 - Been listening since **2009-2010**, back when “Best I Ever Had” had me feeling things in high school I shouldn’t have.  
 - `Drake` is basically a case study in **music as a content strategy**:  
   - Drops solo albums like seasonal DLC packs.  
