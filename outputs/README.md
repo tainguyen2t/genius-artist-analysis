@@ -5,7 +5,7 @@
 >Founded back in 2009 (originally as `Rap Genius`), `Genius` started as a crowd-sourced platform for annotating and breaking down rap lyrics.
 Think of it as Wikipedia, but for "bars" and "punchlines" — people could finally decode what *Lil Wayne* meant without starting a Reddit war.
 >
-><img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/image.png" width="200">
+><img src="/outputs/image.png" width="200">
 >
 >Over the years, `Genius` has evolved into one of the largest music knowledge hubs online, expanding far beyond *hip-hop* into *pop*, *rock*, *R&B* and pretty much every genre that charts.  
 >Today, `Genius` isn’t just about lyrics anymore. 
@@ -23,7 +23,7 @@ It hosts artist interviews, behind-the-scenes production notes, music stats, and
 ### <span style="background-color:#665c00; color:white;">About **This Analysis**</span>
 >For this little data adventure, I’m pulling data straight from the Genius API. The focus? **`Drake`**!  
 >
-><img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/Drake.jpg" width="150">
+><img src="/outputs/Drake.jpg" width="150">
 >
 >Why **`Drake`**? Because I’ve been listening to him since his early breakout days around 2009–2010, and let’s be real — the man has been **consistently dropping music like Spotify pays him rent.**
 >With a catalog that spans over a decade, `Drake`’s discography is dense enough to provide a solid dataset for statistical analysis.  
@@ -129,7 +129,7 @@ It hosts artist interviews, behind-the-scenes production notes, music stats, and
 # **III. Import ARTISTs' SONGs**
 #### **III.1. Get API KEY**
 ## **III.2. Get & save ARTISTs' SONGs JSON**
-<img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/images/III.2.-Get-and-save-ARTISTs-SONGs-JSON.png" width="700">
+<img src="/outputs/images/III.2.-Get-and-save-ARTISTs-SONGs-JSON.png" width="700">
 
 > ###  We begin by collecting data from the `Genius` API: [https://api.genius.com](https://api.genius.com).  
 > 1. The process starts with the *"/search"* endpoint, which allows us to look up an artist and retrieve their *artist_id* (in this case, `Drake`). Once we have the *artist_id*, we use the *"/artists/{artist_id}/songs"* endpoint to fetch the full list of songs associated with that artist.  
@@ -138,14 +138,14 @@ It hosts artist interviews, behind-the-scenes production notes, music stats, and
 
 
 ## **III.3. Import saved JSON and create dataframe of ARTISTs' SONGs**
-<img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/images/III.3.-Import-saved-JSON-and-create-dataframe-of-ARTISTs-SONGs.png" width="400">
+<img src="/outputs/images/III.3.-Import-saved-JSON-and-create-dataframe-of-ARTISTs-SONGs.png" width="400">
 
 > ### Next, we import the saved JSON file and transform it into a dataframe.  
 > - The resulting dataframe contains **1,787 rows** and **41 columns**.  
 > - Column types include: **3 boolean**, **8 float64**, **5 int64** and **25 object**.  
 
 ## **III.4. Data cleansing for ARTISTs' SONGs**
-<img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/images/III.4.-Data-cleansing-for-ARTISTs-SONGs.png" width="400">
+<img src="/outputs/images/III.4.-Data-cleansing-for-ARTISTs-SONGs.png" width="400">
 
 > ### We then move on to data cleansing, ensuring the dataset is accurate and usable.  
 > 1. This involves **filling missing values** for both numeric and object fields, **converting date fields** into proper datetime format and **removing songs not directly tied to `Drake`** *(such as covers, samples or simple references)*. We also **filter out tracks with zero pageviews** — often *fan uploads, unofficial remixes or non-canonical releases* — and finally **sort the records by the most recent release date**.  
@@ -155,9 +155,9 @@ It hosts artist interviews, behind-the-scenes production notes, music stats, and
 #### **III.5. Save ARTISTs' SONGs**
 
 ## **III.6. Describe ARTISTs' SONGs**
-<img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/images/III.6.-Describe-ARTISTs-SONGs-1.png" width="700">
+<img src="/outputs/images/III.6.-Describe-ARTISTs-SONGs-1.png" width="700">
 
-<img src="/Users/tainguyen/Desktop/Python/github-repositories/genius-artist-statistic-2025-08-31/outputs/images/III.6.-Describe-ARTISTs-SONGs-2.png" width="700">
+<img src="/outputs/images/III.6.-Describe-ARTISTs-SONGs-2.png" width="700">
 
 > ### At this stage, we <span style="background-color:#665c00; color:white;">review the dataset’s key statistics</span> to capture its overall shape and distribution.  
 > 1. Song timeline spans **2006–2025**, covering early releases and upcoming tracks.  
