@@ -1,0 +1,17 @@
+pandas
+datetime
+matplotlib
+seaborn
+numpy
+os
+json
+zoneinfo
+requests
+re
+urllib
+PIL
+calmap
+wordcloud
+squarify
+api_key
+importlib
