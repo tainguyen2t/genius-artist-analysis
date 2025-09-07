@@ -20,14 +20,11 @@ From **"Take Care" tears** to **"Her Loss" debates**, from “Started From the B
   - Undefeated at meme-ification (yes, Hotline Bling, I’m looking at you).  
 - His catalog = **dense data goldmine**. Plenty of ups, downs, and “what even is this?” moments.  
 
-## Project Objectives 
-1. **Timeline analysis** → Map `Drake`’s career across years, highlight peaks & flops.  
-2. **Collab breakdown** → Featured vs. Featuring vs. Co-Primary — who actually helps "Drizzy" win?  
-3. **Hot vs. Not** → Why do some songs blow up on `Genius` (lyrical hooks, meme moments) but flop on streaming, and vice versa?  
-4. **Album autopsy** → Compare fan reception between *What a Time to Be Alive* vs. *Her Loss* vs. *Certified Lover Boy*, etc.  
-5. **Cultural impact** → Where the `Genius` pageviews tell a different story than Billboard charts.  
+## Project information  
+- **Conducted by**: Tai Nguyen *(tainguyen0604@gmail.com)*  
+- **Period**: Aug 31st 2025 – Sep 07th 2025 *(straight outta Genius API vault, timestamps patched into UTC+7)*  
+- **Contribution Breakdown**:    
 
-## Contribution Breakdown 
 | Source             | Description                                                                                     | %   |  
 |--------------------|-------------------------------------------------------------------------------------------------|-----|  
 | Self-conducted     | Cleaning messy JSON, building DataFrames, visualizing clout charts (aka “`Drake` stock market”)   | 70% |  
@@ -35,6 +32,13 @@ From **"Take Care" tears** to **"Her Loss" debates**, from “Started From the B
 | Random Googling    | “How many albums does `Drake` actually have?” / “Why is `Genius` API rate limit so petty?”          | 5%  |  
 
 > ***Behind the scenes**: `Genius` API is stingy. You’d think `Drake`’s catalog is a national secret with how slow it gives data.*  
+
+## Project Objectives 
+1. **Timeline analysis** → Map `Drake`’s career across years, highlight peaks & flops.  
+2. **Collab breakdown** → Featured vs. Featuring vs. Co-Primary — who actually helps "Drizzy" win?  
+3. **Hot vs. Not** → Why do some songs blow up on `Genius` (lyrical hooks, meme moments) but flop on streaming, and vice versa?  
+4. **Album autopsy** → Compare fan reception between *What a Time to Be Alive* vs. *Her Loss* vs. *Certified Lover Boy*, etc.  
+5. **Cultural impact** → Where the `Genius` pageviews tell a different story than Billboard charts.  
 
 ## Tools Used  
 - **Python**: `pandas`,`datetime`,`matplotlib`,`seaborn`,`numpy`,`os`,`json`,`zoneinfo`,`requests`,`re`,`urllib`,`PIL`,`calmap`,`wordcloud`,`squarify`,`api_key`,`importlib`
